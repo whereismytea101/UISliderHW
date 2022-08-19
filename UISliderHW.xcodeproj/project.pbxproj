@@ -37,6 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B3A787128AFEB23007604CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D38128A037740057F787 /* SceneDelegate.swift */,
+				9BB7D37F28A037740057F787 /* AppDelegate.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		9B3A787228AFEB4D007604CF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D38528A037740057F787 /* Main.storyboard */,
+				9BB7D38A28A037770057F787 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9B3A787328AFEB66007604CF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BB7D38328A037740057F787 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		9BB7D37328A037730057F787 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +82,10 @@
 		9BB7D37E28A037730057F787 /* UISliderHW */ = {
 			isa = PBXGroup;
 			children = (
-				9BB7D37F28A037740057F787 /* AppDelegate.swift */,
-				9BB7D38128A037740057F787 /* SceneDelegate.swift */,
-				9BB7D38328A037740057F787 /* ViewController.swift */,
-				9BB7D38528A037740057F787 /* Main.storyboard */,
+				9B3A787128AFEB23007604CF /* Support Files */,
+				9B3A787328AFEB66007604CF /* View Controllers */,
+				9B3A787228AFEB4D007604CF /* Storyboards */,
 				9BB7D38828A037770057F787 /* Assets.xcassets */,
-				9BB7D38A28A037770057F787 /* LaunchScreen.storyboard */,
 				9BB7D38D28A037770057F787 /* Info.plist */,
 			);
 			path = UISliderHW;
